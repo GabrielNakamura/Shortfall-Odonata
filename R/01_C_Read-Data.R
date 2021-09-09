@@ -19,5 +19,8 @@ shapefile_basin_sf <- sf::st_read(dsn = here::here("data", "spatialData")) # bas
 
 occ_odonata <- read.csv(file = here::here("data", "raw", "occ_odonata_neotrop.csv"), sep = ";")
 
-
+insertion_odonata <- read.csv(file = here::here("data", 
+                                                "raw",
+                                                "insertions_odonata.csv"), 
+                              sep = ";")
 
